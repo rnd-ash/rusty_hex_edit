@@ -1,0 +1,17 @@
+[package]
+name = "rusty_hex_edit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.1"
+nfd="0.0.4"
+egui_winit_platform = "0.14.0"
+eframe = {git = "https://github.com/emilk/egui", features=["wgpu"] }
+wgpu = "0.12"
+winit = "0.26.1"
+egui-wgpu = "0.18.0"
+egui-winit = "0.18.0"
+egui_extras = {git = "https://github.com/emilk/egui"}
